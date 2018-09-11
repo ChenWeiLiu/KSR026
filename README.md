@@ -3,12 +3,17 @@
 超音波模組
 ECO 接到 P14
 TRG 接到 P13
-LDE 接到 P16
+LED 接到 P16
+
+循跡小車
+ROT 接到 P13
+LOT 接到 P14
+LED 接到 P16
 
 
 
 KSB037 
-馬達自走車的部分複製劉正吉老師的程式
+馬達自走車的部分自動載入劉正吉老師開發的程式
 原本程式代碼：
 https://github.com/lioujj/KSB037
 
