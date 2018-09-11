@@ -1,4 +1,6 @@
 {
-	"KSR026.sr04": "HC-SR04距離",
-	"KSR026.led": "設定LED燈光顏色"
+	"KSR026.sr04|block": "HC-SR04距離",
+	"KSR026.led|block": "設定LED燈光顏色",
+	"KSR026.TRACK_R|block": "右循跡",
+	"KSR026.TRACK_L|block": "左循跡"
 }

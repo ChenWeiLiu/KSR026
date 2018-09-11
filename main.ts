@@ -37,7 +37,7 @@ namespace KSR026 {
      * 顯示左循跡
      *  設定為公分
      */
-    //% blockId="TRACK_R" block="TRACK_L"
+    //% blockId="TRACK_L" block="TRACK_L"
     export function TRACK_L(): boolean {
         if (pins.digitalReadPin(DigitalPin.P14) == 1) {
             return true
