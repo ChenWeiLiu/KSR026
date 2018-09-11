@@ -12,10 +12,10 @@ KSB037
 原本程式代碼：
 https://github.com/lioujj/KSB037
 
-SR04 參考 
+SR04 引用
 pxt-sonar 模組
 改寫成固定腳位
 
-LED 顯示 參考
+LED 顯示 引用
 neopixel 模組
 改寫成固定腳位
