@@ -20,5 +20,30 @@ namespace KSR026 {
         const use_led = neopixel.create(DigitalPin.P16, 2, NeoPixelMode.RGB);
         use_led.showColor(neopixel.colors(color))
     }
+     /**
+     * 顯示右循跡
+     *  設定為公分
+     */
+    //% blockId="TRACK_R" block="TRACK_R"
+    export function TRACK_R(): boolean {
+        if (pins.digitalReadPin(DigitalPin.P13) == 1){
+            return true
+        } else {
+            return false
+        }
+
+    }
+    /**
+     * 顯示左循跡
+     *  設定為公分
+     */
+    //% blockId="TRACK_R" block="TRACK_L"
+    export function TRACK_L(): boolean {
+        if (pins.digitalReadPin(DigitalPin.P14) == 1) {
+            return true
+        } else {
+            return false
+        }
+    }
    
 }
