@@ -15,7 +15,7 @@ namespace KSR026 {
     * 顯示 LED
     * @param value 在此描述值, eg: 5
     */
-    //% blockId="led" block="led %RGB"
+    //% blockId="led_show" block="led_show %RGB"
     export function led(color: NeoPixelColors) {
         const use_led = neopixel.create(DigitalPin.P16, 2, NeoPixelMode.RGB);
         use_led.showColor(neopixel.colors(color))
