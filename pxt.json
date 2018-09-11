@@ -7,8 +7,8 @@
         "core": "*",
         "ws2812b": "github:Microsoft/pxt-ws2812b#v0.0.4",
         "neopixel": "github:Microsoft/pxt-neopixel#v0.6.8",
-        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.5",
-        "KSB037": "github:lioujj/KSB037",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.5"
+        // "KSB037": "github:lioujj/KSB037"
     },
     "files": [
         "README.md",
